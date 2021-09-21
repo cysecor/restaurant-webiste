@@ -1,1 +1,237 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="home" class="header-bg">
+            <nav class="navbar navbar-expand-lg navbar-light main-nav">
+                <div class="container-fluid">
+                <a href="#"><img src="./images/logo.png" alt="Logo"></a>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-right" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                            </li>                           
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#products">Product</a>
+                            </li>                           
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#promo">Promo</a>
+                            </li>                           
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+                            </li>                           
+                            <li class="nav-item">
+                                <a class="nav-link active text-white contact" aria-current="page" href="#contact">Contact</a>
+                            </li>                           
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fw-bold" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                                    viewbox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg></a>
+                            </li>                           
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 offset-md-5 header-right">
+                    <div class="header-content">
+                        <h1>Title Here</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="products" class="best-seller">
+        <div class="container">
+            <div class="row best-seller-row">
+                <h2>Best Seller</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="meals" src="./images/best-seller-first-img.png" alt="Meal">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="meals" src="./images/best-seller-scnd-img.png" alt="Meal">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="meals" src="./images/best-seller-third-img.png" alt="Meal">
+                    <h3>Title Here</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="promo" class="oriental-taste">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img class="img-fluid" src="./images/oriental-taste-img.png" alt="Meal">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Oriental Taste</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="row statistics-row">
+                <h2>Statistics</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+            </div>
+            <div class="row cards-row">
+                <div class="col-md-3">
+                    <div class="cards-border">
+                        <p class="number">123</p>
+                        <p>outlets</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-border">
+                        <p class="number">100</p>
+                        <p>chef</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-border">
+                        <p class="number">300</p>
+                        <p>menu</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cards-border">
+                        <p class="number">30</p>
+                        <p>country</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="chicken-grill">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Chicken Grill</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                    <a href="#">Order now</a>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <img class="img-fluid" src="./images/chicken-grill-img.png" alt="Chicken Grill">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="yellow-section">
+        <div class="container">
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <h3>Lenora Fields</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="subscribe-section">
+        <div class="container">
+            <div class="row subscribe-row">
+                <h3>Subscribe</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <form class="subscribe-form" action="">
+                    <input type="email" required placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Title Here</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                    <a target="_blank" href="https://www.instagram.com/"><ion-icon class="social-icon instagram" name="logo-instagram"></ion-icon></a>
+                    <a target="_blank" href="https://www.facebook.com/"><ion-icon class="social-icon facebook" name="logo-facebook"></ion-icon></a>
+                    <a target="_blank" href="http://twitter.com/"><ion-icon class="social-icon twitter" name="logo-twitter"></ion-icon></a>
+                    <a target="_blank" href="https://www.whatsapp.com/"><ion-icon class="social-icon whatsapp" name="logo-whatsapp"></ion-icon></a>
+                </div>
+                <div class="col-md-2">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Brand Guidelines</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Other</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+<!-- title here font-family: 'Grand Hotel', cursive; -->

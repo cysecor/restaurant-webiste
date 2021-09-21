@@ -1,0 +1,362 @@
+/* ------------------------------------------------ */
+/* foundation */
+/* ------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "myriad-regular";
+  src: url(./fonts/MYRIADPRO-REGULAR.OTF);
+}
+/* ------------------------------------------------ */
+/* header-nav */
+/* ------------------------------------------------ */
+nav .navbar-nav li a:hover,
+nav .navbar-nav li a:active {
+  color: #757575 !important;
+}
+.header-bg {
+  background-image: url(./images/header-bg.png);
+  height: 680px;
+  background-repeat: no-repeat;
+  background-color: #2b2b2b;
+}
+.nav-right {
+  justify-content: flex-end;
+}
+.nav-right li {
+  margin-right: 38px;
+}
+.nav-right li:last-child {
+  margin-right: 0;
+}
+.header-bg .main-nav {
+  background-color: transparent;
+  padding: 35px;
+}
+.contact {
+  margin-right: 93px;
+}
+.header-right {
+  background-image: url(./images/vegetables-bg.png);
+  height: 568px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-right h1 {
+  font-size: 104px;
+  color: #ffc200;
+  margin-top: 70px;
+  font-family: "Grand Hotel", cursive;
+}
+.header-right p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: #fff;
+  width: 433px;
+}
+.header-right a,
+.oriental-taste a,
+.chicken-grill a,
+.subscribe-form button {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #ffc200;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: #2b2b2b;
+  border-radius: 3px;
+  transition: color 0.2s;
+}
+.header-right a:hover,
+.header-right a:active,
+.oriental-taste a:hover,
+.oriental-taste a:active,
+.chicken-grill a:hover,
+.chicken-grill a:active,
+.subscribe-form button:hover,
+.subscribe-form button:active {
+  color: #fff;
+}
+.header-content {
+  width: 419px;
+  margin: 0 auto;
+}
+/* ------------------------------------------------ */
+/* best-seller */
+/* ------------------------------------------------ */
+.best-seller {
+  padding-top: 100px;
+  padding-bottom: 124px;
+}
+.best-seller-row {
+  text-align: center;
+}
+.best-seller-row h2 {
+  font-size: 65px;
+  font-family: "Grand Hotel", cursive;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.best-seller-row p {
+  font-size: 20px;
+  width: 842px;
+  margin: 0 auto 50px auto;
+  color: #333333;
+}
+.best-seller .col-md-4 {
+  text-align: center;
+}
+.best-seller h3 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 40px;
+  margin: 20px 0;
+}
+.best-seller .col-md-4 p {
+  font-size: 16px;
+  width: 203px;
+  margin: 0 auto;
+  color: #333333;
+  font-weight: 600;
+}
+.meals {
+  width: 190px;
+}
+/* ------------------------------------------------ */
+/* oriental-taste */
+/* ------------------------------------------------ */
+.oriental-taste {
+  background-image: url(./images/oriental-taste-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  padding-top: 20px;
+  padding-bottom: 69px;
+}
+.oriental-taste img {
+  width: 405px;
+}
+.oriental-taste h2 {
+  margin-top: 117px;
+  color: #ffc200;
+  font-family: "Grand Hotel", cursive;
+  font-size: 70px;
+}
+.oriental-taste p {
+  color: #fff;
+  font-size: 17px;
+  width: 454px;
+  margin-bottom: 38px;
+  font-weight: 300;
+}
+/* ------------------------------------------------ */
+/* statistics */
+/* ------------------------------------------------ */
+.statistics {
+  background-color: #2b2b2b;
+  margin-top: -1px;
+  background-image: url(./images/statistics-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 220px;
+}
+.statistics-row {
+  text-align: center;
+}
+.statistics-row h2 {
+  color: #ffc200;
+  font-family: "Grand Hotel", cursive;
+  font-size: 70px;
+  margin-top: 115px;
+}
+.statistics-row p {
+  color: #fff;
+  font-size: 17px;
+  width: 578px;
+  margin: 0 auto;
+  font-weight: 300;
+  margin-bottom: 84px;
+}
+.statistics .container .row .col-md-3 {
+  text-align: center;
+}
+.cards-row {
+  color: #fff;
+}
+.cards-border {
+  border: 3px solid #fff;
+  width: 174px;
+  padding: 20px 0;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.number {
+  color: #ffc200;
+  font-size: 47px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.cards-border p:nth-child(2) {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* ------------------------------------------------ */
+/* chicken-grill */
+/* ------------------------------------------------ */
+.chicken-grill {
+  background-image: url(./images/chicken-grill-bg.png);
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  padding-bottom: 73px;
+}
+.chicken-grill h2 {
+  color: #ffc200;
+  font-family: "Grand Hotel", cursive;
+  font-size: 70px;
+}
+.chicken-grill p {
+  color: #fff;
+  font-size: 17px;
+  width: 378px;
+  margin-bottom: 38px;
+  font-weight: 300;
+}
+.chicken-grill img {
+  width: 405px;
+}
+/* ------------------------------------------------ */
+/* yellow-section */
+/* ------------------------------------------------ */
+.yellow-section {
+  text-align: center;
+  background-image: linear-gradient(#ffcb2ed2, #ffcb2ed2),
+    url(./images/yellow-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  margin-top: 37px;
+}
+.yellow-section p {
+  font-size: 30px;
+  width: 582px;
+  margin: 0 auto;
+  color: #333333;
+  margin-bottom: 50px;
+}
+.yellow-section h3,
+.subscribe-row h3 {
+  color: #333333;
+  font-family: "Grand Hotel", cursive;
+  font-size: 55px;
+}
+/* ------------------------------------------------ */
+/* subscribe-section */
+/* ------------------------------------------------ */
+.subscribe-section {
+  background-color: #f2f2f2;
+  padding: 233px 0;
+  background-image: url(./images/subscribe-vegetables.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscribe-row {
+  text-align: center;
+}
+.subscribe-row p {
+  color: #333333;
+  font-size: 17px;
+  width: 411px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+.subscribe-row p {
+  font-size: 21px;
+  width: 711px;
+  margin-bottom: 50px;
+}
+.subscribe-form input[type="email"] {
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 329px;
+  padding-left: 10px;
+}
+.subscribe-form input[type="email"]::placeholder {
+  color: #adadad;
+}
+.subscribe-form button {
+  border: none;
+  font-size: 13px;
+  margin-left: -4px;
+  height: 30px;
+  border-radius: 0;
+  padding-bottom: 26px;
+}
+.subscribe-row h3 {
+  font-size: 70px;
+}
+/* ------------------------------------------------ */
+/* footer */
+/* ------------------------------------------------ */
+footer {
+  background-color: #303030;
+  padding: 100px 0;
+}
+footer h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer p {
+  color: #fff;
+  margin: 20px 0;
+  width: 298px;
+}
+.social-icon {
+  color: #fff;
+  font-size: 31px;
+  transition: color 0.2s;
+}
+.instagram:hover,
+.instagram:active {
+  color: #c32aa3;
+}
+.facebook:hover,
+.facebook:active {
+  color: #1877f2;
+}
+.twitter:hover,
+.twitter:active {
+  color: #1da1f2;
+}
+.whatsapp:hover,
+.whatsapp:active {
+  color: #25d366;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+footer ul li a:hover,
+footer ul li a:active {
+  color: #757575;
+}
+footer ul li {
+  margin-top: 10px;
+}
