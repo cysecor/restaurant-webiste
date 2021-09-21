@@ -76,6 +76,9 @@
   .chicken-grill {
     padding-top: 55px;
   }
+  .subscribe-section {
+    padding: 135px 0;
+  }
 }
 @media only screen and (max-width: 480px) {
   .best-seller .col-md-4 p {
@@ -135,4 +138,40 @@
   .yellow-section {
     padding: 73px 0;
   }
+  .subscribe-form button {
+    margin-top: 15px;
+  }
+  .subscribe-section {
+    padding: 55px 0;
+  }
+  .subscribe-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .subscribe-form input[type="email"] {
+    width: 100%;
+  }
+  .subscribe-row p {
+    font-size: 16px;
+  }
+  .subscribe-row h3 {
+    font-size: 32px;
+  }
+  .yellow-section h3,
+  .subscribe-row h3 {
+    font-size: 32px;
+  }
+  .chicken-grill h2,
+  .statistics-row h2,
+  .oriental-taste h2 {
+    font-size: 32px;
+  }
+  .best-seller h3 {
+    font-size: 32px;
+  }
+  .best-seller-row h2 {
+    font-size: 32px;
+  }
+  .best-seller-row p {
+    font-size: 16px;
 }
