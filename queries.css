@@ -79,6 +79,16 @@
   .subscribe-section {
     padding: 135px 0;
   }
+  footer p {
+    margin: 20px auto;
+  }
+  footer {
+    text-align: center;
+    padding: 51px 0;
+  }
+  footer h4 {
+    margin-top: 33px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .best-seller .col-md-4 p {
@@ -174,4 +184,8 @@
   }
   .best-seller-row p {
     font-size: 16px;
+  }
+  footer p {
+    width: 100%;
+  }
 }
