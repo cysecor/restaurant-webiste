@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1024px) {
+  .chicken-grill {
+    margin-top: -1px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .best-seller .col-md-4 p {
     margin-bottom: 46px;
@@ -15,9 +20,112 @@
   .best-seller .col-md-4 p {
     width: 47%;
   }
+  .oriental-taste {
+    padding-top: 0px;
+  }
+  .oriental-taste img {
+    width: 257px;
+    margin: 0 auto;
+    display: block;
+  }
+  .oriental-taste h2 {
+    margin-top: 36px;
+  }
+  .oriental-taste-content {
+    text-align: center;
+  }
+  .oriental-taste {
+    padding-bottom: 9px;
+  }
+  .oriental-taste h2 {
+    margin-top: 37px;
+  }
+  .statistics {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 54px;
+    background-size: auto;
+  }
+  .statistics-row p {
+    margin-bottom: 54px;
+  }
+  .cards-border {
+    margin-bottom: 29px;
+  }
+  .oriental-taste p {
+    margin: 0 auto 38px auto;
+    width: 100%;
+  }
+  .oriental-bg-color {
+    background-image: linear-gradient(transparent 179px, #2b2b2b 98px);
+  }
+  .oriental-taste {
+    padding-bottom: 0px;
+  }
+  .chicken-grill-content {
+    text-align: center;
+  }
+  .chicken-grill img {
+    width: 257px;
+    margin: 49px auto 0 auto;
+    display: block;
+  }
+  .chicken-grill p {
+    margin: 0 auto 38px auto;
+  }
+  .chicken-grill {
+    padding-top: 55px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .best-seller .col-md-4 p {
     width: 100%;
+  }
+  .oriental-bg-color {
+    background-image: linear-gradient(transparent 116px, #2b2b2b 98px);
+  }
+  .oriental-taste img {
+    width: 59%;
+  }
+  .statistics-row h2 {
+    margin-top: 88px;
+  }
+  .statistics {
+    margin-top: -2px;
+  }
+  .chicken-grill {
+    margin-top: -2px;
+  }
+  .chicken-grill {
+    padding-top: 42px;
+  }
+  .statistics {
+    padding-bottom: 20px;
+  }
+  .chicken-grill h2,
+  .statistics-row h2,
+  .oriental-taste h2 {
+    font-size: 60px;
+  }
+  .chicken-grill p,
+  .statistics-row p,
+  .oriental-taste p {
+    font-size: 16px;
+    width: 94%;
+  }
+  .cards-border {
+    width: 145px;
+  }
+  .number {
+    font-size: 36px;
+  }
+  .cards-border p:nth-child(2) {
+    font-size: 17px;
+  }
+  .img-fluid {
+    max-width: 80%;
+  }
+  .chicken-grill img {
+    width: 59%;
   }
 }
