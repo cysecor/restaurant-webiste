@@ -128,4 +128,11 @@
   .chicken-grill img {
     width: 59%;
   }
+  .yellow-section p {
+    font-size: 21px;
+    width: 100%;
+  }
+  .yellow-section {
+    padding: 73px 0;
+  }
 }
